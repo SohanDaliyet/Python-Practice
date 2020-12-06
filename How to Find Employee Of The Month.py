@@ -3,6 +3,18 @@ work_hours = [('Abby',100),('Billy',400),('katty',800)]
 
 register = input('Do You Want To Register A New Employee ? [Y/N] :').capitalize().strip()
 
+if register == 'Y' :
+    
+    employee = input('Please Enter The Name Of The Employee :').capitalize().strip()
+    hours = int(input('Please Enter The Number Of Hours Worked :'))
+    print('The Newly Registerd Employee Is ',employee,'And The Number Of Hours Worked Are ',hours)
+    employee_hours = (employee,hours)
+
+    work_hours.append(employee_hours)
+
+else:
+    pass
+
 def employee_check(work_hours):
 
     current_max = 0
