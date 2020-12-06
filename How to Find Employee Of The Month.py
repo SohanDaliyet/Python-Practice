@@ -1,5 +1,5 @@
 work_hours = [('Abby',100),('Billy',400),('katty',800)]
-#These are predefined values in the terms of (Employee,Number of hours worked)
+#These are predefined example values in the terms of (Employee,Number of hours worked)
 
 register = input('Do You Want To Register A New Employee ? [Y/N] :').capitalize().strip()
 
@@ -14,6 +14,10 @@ if register == 'Y' :
 
 else:
     pass
+
+#This is to check if your registeration has been added to the list or not.
+#It is presently commented,but you can un-comment it to check it out. 
+#print(work_hours)
 
 def employee_check(work_hours):
 
@@ -33,6 +37,7 @@ check_winner = input('Do You Wish To Check The Current Employee Of The Month ? [
 if check_winner == 'Y' :
     
     print(employee_check(work_hours))
+    #Over here we are calling the function we defined in line 22.
 
 else:
     pass
