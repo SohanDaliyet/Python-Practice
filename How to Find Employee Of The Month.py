@@ -29,3 +29,11 @@ def employee_check(work_hours):
     return(employee_of_the_month,current_max)
 
 check_winner = input('Do You Wish To Check The Current Employee Of The Month ? [Y/N] :').capitalize().strip()
+
+if check_winner == 'Y' :
+    
+    print(employee_check(work_hours))
+
+else:
+    pass
+
