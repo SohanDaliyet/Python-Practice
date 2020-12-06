@@ -13,3 +13,4 @@ def employee_check(work_hours):
 
     return(employee_of_the_month,current_max)
 
+print(employee_check(work_hours))
