@@ -28,4 +28,4 @@ def employee_check(work_hours):
 
     return(employee_of_the_month,current_max)
 
-print(employee_check(work_hours))
+check_winner = input('Do You Wish To Check The Current Employee Of The Month ? [Y/N] :').capitalize().strip()
