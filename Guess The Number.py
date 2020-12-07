@@ -20,3 +20,16 @@ def check_guess(my_list,guess):
     else:
         print('Wrong Guess!!!')
         print(my_list)
+
+#This is the INITIAL LIST       
+my_list = [' ','O',' ']
+
+#This is the SHUFFLED LIST
+shuffled_list = shuffle_list(my_list)
+
+#This is the USER GUESS
+guess = player_guess()
+
+#This is the CHECK GUESS
+check_guess(shuffled_list,guess)
+
