@@ -10,4 +10,13 @@ def player_guess():
 
     while guess not in ['0','1','2']:
         guess = input('''Pick A Number ['0';'1';'2'] :''')
+        
+    return int(guess)
 
+def check_guess(my_list,guess):
+
+    if my_list[guess] == 'O' :
+        print('Correct!!!')
+    else:
+        print('Wrong Guess!!!')
+        print(my_list)
