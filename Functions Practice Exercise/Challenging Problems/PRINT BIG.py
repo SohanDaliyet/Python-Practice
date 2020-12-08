@@ -1,3 +1,5 @@
+#This is the given question.
+
 #Just for fun, not a real problem :)
 #PRINT BIG: Write a function that takes in a single letter, and returns a 5x5 representation of that letter
 #print_big('a')
