@@ -1,3 +1,5 @@
+#This is the given question.
+
 #SPY GAME: Write a function that takes in a list of integers and returns True if it contains 007 in order
 # spy_game([1,2,4,0,0,7,5]) --> True
 # spy_game([1,0,2,4,0,5,7]) --> True
