@@ -13,3 +13,4 @@ def lesser_of_two_evens(a,b):
 a = int(input('Please Enter The First Number : '))
 b = int(input('Please Enter The Second Number : '))
     
+print(lesser_of_two_evens(a,b))
