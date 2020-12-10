@@ -19,3 +19,6 @@ def makes_twenty(n1,n2):
         return True
     else:
         return False
+
+n1 = int(input('Please Enter The First Number : '))
+n2 = int(input('Please Enter The Second Number : '))
