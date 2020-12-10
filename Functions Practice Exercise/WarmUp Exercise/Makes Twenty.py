@@ -7,6 +7,10 @@
 
 def makes_twenty(n1,n2):
 
+    #return (n1+n2) == 20 or n1==20 or n2==20
+#The above code is the Shorter and Efficient.You can use it as per your convenience.
+#The below code will be relatively easier to undestand.They are one and the same thing.
+    
     if n1 + n2 == 20:
         return True
     elif n1 == 20:
