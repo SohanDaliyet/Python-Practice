@@ -10,3 +10,5 @@ def animal_cracker(text):
     return wordlist[0][0] == wordlist[1][0]
 
 text = input('Please Enter Two Words : ')
+
+print(animal_cracker(text))
