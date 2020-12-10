@@ -9,3 +9,7 @@ def lesser_of_two_evens(a,b):
         return min(a,b)
     else:
         return max(a,b)
+
+a = int(input('Please Enter The First Number : '))
+b = int(input('Please Enter The Second Number : '))
+    
