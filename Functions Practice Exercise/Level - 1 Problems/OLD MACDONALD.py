@@ -13,3 +13,5 @@ def old_macdonald(name):
     return first_half.capitalize() + second_half.capitalize()
 
 name = input('Please Enter A Word : ')
+
+print(old_macdonald(name))
