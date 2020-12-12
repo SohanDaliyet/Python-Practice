@@ -9,3 +9,4 @@ def master_yoda(text):
     reverse_word_list = word_list[::-1]
     return ' '.join(reverse_word_list)
   
+text = input('Please Enter Some Text : ')
