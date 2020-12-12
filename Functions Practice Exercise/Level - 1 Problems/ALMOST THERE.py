@@ -7,3 +7,7 @@
 #almost_there(209) --> True
 
 #NOTE: abs(num) returns the absolute value of a number
+
+def almost_there(n):
+
+    return (abs(100-n) <= 10) or (abs(200-n) <= 10)
