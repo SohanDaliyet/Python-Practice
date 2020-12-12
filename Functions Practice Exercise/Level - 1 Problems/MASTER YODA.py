@@ -10,3 +10,5 @@ def master_yoda(text):
     return ' '.join(reverse_word_list)
   
 text = input('Please Enter Some Text : ')
+
+print(master_yoda(text))
