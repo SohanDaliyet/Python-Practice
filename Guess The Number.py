@@ -1,4 +1,5 @@
 from random import shuffle
+# I wrote all the functions first in the up and then applied the logic for easier undestanding. 
 
 def shuffle_list(my_list):
     shuffle(my_list)
