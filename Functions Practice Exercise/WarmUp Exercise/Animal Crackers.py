@@ -4,6 +4,8 @@
 #animal_crackers('Levelheaded Llama') --> True
 #animal_crackers('Crazy Kangaroo') --> False
 
+# Solution :
+
 def animal_cracker(text):
     wordlist = text.upper().split()
     #print(wordlist)
